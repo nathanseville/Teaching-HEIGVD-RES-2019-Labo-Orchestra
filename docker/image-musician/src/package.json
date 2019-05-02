@@ -1,0 +1,10 @@
+{
+  "name": "orchestra-musician",
+  "version": "1.0.0",
+  "description": "",
+  "main": "musician.js",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "uuid": "^3.3.2"
+  }
+}
