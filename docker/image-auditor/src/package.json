@@ -1,0 +1,12 @@
+{
+  "name": "orchestra-auditor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "auditor.js",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "net": "^1.0.2",
+    "hashmap": "^2.3.0",
+    "moment": "^2.24.0"
+  }
+}
