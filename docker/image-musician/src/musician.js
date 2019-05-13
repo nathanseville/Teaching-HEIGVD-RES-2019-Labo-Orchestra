@@ -24,7 +24,6 @@ function Musician(instrument) {
         s.send(message, 0, message.length, protocol.PROTOCOL_PORT, protocol.PROTOCOL_MULTICAST_ADDRESS, function(err, bytes) {
             console.log("Sending payload: " + payload + " via port " + s.address().port);
         });
-
     }
 
 	setInterval(this.update.bind(this), 1000);

@@ -167,7 +167,7 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 |Question | How can we use the `Moment.js` npm module to help us with **date manipulations** and formatting?  |
 | | *moment(timestamp)* |
 |Question | When and how do we **get rid of inactive players**?  |
-| | *When a client ask for musician playing, verify if any of them didnt send a sound from more than 1 second* |
+| | *When a client ask for musician playing, verify if any of them didnt send a sound from more than 5 seconds* |
 |Question | How do I implement a **simple TCP server** in Node.js?  |
 | | *With net and his createServer() method* |
 

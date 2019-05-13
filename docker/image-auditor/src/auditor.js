@@ -10,7 +10,7 @@ var server = net.createServer(function(socket) {
   console.log("Process auditor infos");
   musicians.forEach(element => {
     console.log(Date.now() - element.timestamp);
-    if(Date.now() - element.timestamp > 1000) { // 1 seconds
+    if(Date.now() - element.timestamp > 5000) { // 5 seconds
       musicians.remove(element.uuid);
     }
   });
